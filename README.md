@@ -21,3 +21,9 @@ source .venv/bin/activate
 pip install -r requirements.txt
 jupyter lab
 ```
+
+## Using Docker
+
+```bash
+docker run --runtime=nvidia -p 8888:8888 -it jax-cuda
+```
